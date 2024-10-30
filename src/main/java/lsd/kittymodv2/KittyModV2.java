@@ -1,7 +1,9 @@
 package lsd.kittymodv2;
 
+import lsd.kittymodv2.init.ItemInit;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +22,10 @@ public class KittyModV2 implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ItemInit.load();
+	}
+
+	public static Identifier id(String path) {
+		return Identifier.of(MOD_ID, path);
 	}
 }

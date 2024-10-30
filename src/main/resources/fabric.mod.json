@@ -5,11 +5,11 @@
 	"name": "Kitty Mod V2",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Lilia"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/AlanikREDAWN/kitty-mod-v2-template-1.21"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/kittymodv2/icon.png",
@@ -30,8 +30,5 @@
 		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
