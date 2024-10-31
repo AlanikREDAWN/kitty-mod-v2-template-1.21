@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "kittymodv2:item/example_item"
+    "layer0": "kittymodv2:item/black_collar"
   }
 }

@@ -1,3 +1,16 @@
 {
-  "item.kittymodv2.example_item": "Example Item"
+  "item.kittymodv2.pink_garnet": "Pink Garnet",
+  "item.kittymodv2.raw_pink_garnet": "Raw Pink Garnet",
+  "item.kittymodv2.star": "Star",
+  "item.kittymodv2.red_collar": "Red Collar",
+  "item.kittymodv2.orange_collar": "Orange Collar",
+  "item.kittymodv2.yellow_collar": "Yellow Collar",
+  "item.kittymodv2.green_collar": "Green Collar",
+  "item.kittymodv2.blue_collar": "Blue Collar",
+  "item.kittymodv2.teal_collar": "Teal Collar",
+  "item.kittymodv2.purple_collar": "Purple Collar",
+  "item.kittymodv2.pink_collar": "Pink Collar",
+  "item.kittymodv2.black_collar": "Black Collar",
+  "item.kittymodv2.grey_collar": "Grey Collar",
+  "item.kittymodv2.white_collar": "White Collar"
 }
