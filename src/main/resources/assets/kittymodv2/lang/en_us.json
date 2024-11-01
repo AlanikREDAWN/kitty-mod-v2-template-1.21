@@ -12,5 +12,12 @@
   "item.kittymodv2.pink_collar": "Pink Collar",
   "item.kittymodv2.black_collar": "Black Collar",
   "item.kittymodv2.grey_collar": "Grey Collar",
-  "item.kittymodv2.white_collar": "White Collar"
+  "item.kittymodv2.white_collar": "White Collar",
+
+  "block.kittymodv2.pink_garnet_block": "Block of Pink Garnet",
+  "block.kittymodv2.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+  "itemgroup.kittymodv2.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.kittymodv2.pink_garnet_blocks": "Pink Garnet Blocks",
+  "itemgroup.kittymodv2.collar_items": "Collars"
 }

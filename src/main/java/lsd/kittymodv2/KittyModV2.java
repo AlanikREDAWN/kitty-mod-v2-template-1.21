@@ -2,6 +2,7 @@ package lsd.kittymodv2;
 
 //import lsd.kittymodv2.init.ItemInit;
 import lsd.kittymodv2.block.ModBlocks;
+import lsd.kittymodv2.item.ModItemGroups;
 import lsd.kittymodv2.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -23,8 +24,10 @@ public class KittyModV2 implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
 //		ItemInit.load();
 	}
 
