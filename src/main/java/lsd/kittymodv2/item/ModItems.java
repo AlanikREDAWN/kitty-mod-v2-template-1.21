@@ -23,6 +23,11 @@ public class ModItems {
     public static final Item BLACK_COLLAR = registerItem("black_collar", new Item(new Item.Settings()));
     public static final Item GREY_COLLAR = registerItem("grey_collar", new Item(new Item.Settings()));
     public static final Item WHITE_COLLAR = registerItem("white_collar", new Item(new Item.Settings()));
+    public static final Item YARN = registerItem("yarn", new Item(new Item.Settings()));
+    public static final Item CATNIP = registerItem("catnip", new Item(new Item.Settings()));
+    public static final Item DANGLE_TOY = registerItem("dangle_toy", new Item(new Item.Settings()));
+    public static final Item TREAT = registerItem("treat", new Item(new Item.Settings()));
+    public static final Item MEOW_MUFFIN = registerItem("meow_muffin", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(KittyModV2.MOD_ID, name), item);
@@ -34,6 +39,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);
             entries.add(RAW_PINK_GARNET);
+            entries.add(YARN);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(STAR);
@@ -50,6 +56,12 @@ public class ModItems {
             entries.add(BLACK_COLLAR);
             entries.add(GREY_COLLAR);
             entries.add(WHITE_COLLAR);
+            entries.add(DANGLE_TOY);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
+            entries.add(CATNIP);
+            entries.add(TREAT);
+            entries.add(MEOW_MUFFIN);
         });
     }
 }

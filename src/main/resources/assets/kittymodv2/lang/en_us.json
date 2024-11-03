@@ -19,5 +19,14 @@
 
   "itemgroup.kittymodv2.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.kittymodv2.pink_garnet_blocks": "Pink Garnet Blocks",
-  "itemgroup.kittymodv2.collar_items": "Collars"
+  "itemgroup.kittymodv2.collar_items": "Collars",
+
+  "item.kittymodv2.yarn": "Ball of Yarn",
+  "item.kittymodv2.catnip": "Catnip",
+  "item.kittymodv2.dangle_toy": "Dangle Cat Toy",
+  "item.kittymodv2.treat": "Cat Treat",
+  "item.kittymodv2.meow_muffin": "Meow Muffin",
+
+  "item.kittymodv2.pink_garnet_ore": "Pink Garnet Ore",
+  "item.kittymodv2.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore"
 }
