@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        " P ",
+        "#K#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather"
+        },
+        "I": {
+            "item": "minecraft:iron_nugget"
+        },
+        "P": {
+            "item": "minecraft:purple_dye"
+        },
+        "K": {
+            "item": "kittymodv2:item/cat_bell"
+        }
+    },
+    "result": {
+        "id": "kittymodv2:item/purple_collar",
+        "count": 1
+    }
+}

@@ -1,6 +1,7 @@
 package lsd.kittymodv2.item;
 
 import lsd.kittymodv2.KittyModV2;
+import lsd.kittymodv2.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -28,6 +29,15 @@ public class ModItems {
     public static final Item DANGLE_TOY = registerItem("dangle_toy", new Item(new Item.Settings()));
     public static final Item TREAT = registerItem("treat", new Item(new Item.Settings()));
     public static final Item MEOW_MUFFIN = registerItem("meow_muffin", new Item(new Item.Settings()));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+
+    public static final Item LASER_POINTER = registerItem("laser_pointer", new Item(new Item.Settings()));
+    public static final Item MILK_BOWL = registerItem("milk_bowl", new Item(new Item.Settings()));
+    public static final Item CAT_BED = registerItem("cat_bed", new Item(new Item.Settings()));
+    public static final Item FOOD_BOWL = registerItem("food_bowl", new Item(new Item.Settings()));
+    public static final Item CAT_BELL = registerItem("cat_bell", new Item(new Item.Settings()));
+    public static final Item CATNIP_LEAF = registerItem("catnip_leaf", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(KittyModV2.MOD_ID, name), item);
@@ -57,11 +67,17 @@ public class ModItems {
             entries.add(GREY_COLLAR);
             entries.add(WHITE_COLLAR);
             entries.add(DANGLE_TOY);
+            entries.add(LASER_POINTER);
+            entries.add(CAT_BED);
+            entries.add(CAT_BELL);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(CATNIP);
             entries.add(TREAT);
             entries.add(MEOW_MUFFIN);
+            entries.add(MILK_BOWL);
+            entries.add(FOOD_BOWL);
+            entries.add(CATNIP_LEAF);
         });
     }
 }

@@ -28,5 +28,14 @@
   "item.kittymodv2.meow_muffin": "Meow Muffin",
 
   "item.kittymodv2.pink_garnet_ore": "Pink Garnet Ore",
-  "item.kittymodv2.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore"
+  "item.kittymodv2.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
+  "item.kittymodv2.chisel": "Chisel",
+
+  "item.kittymodv2.laser_pointer": "Laser Pointer",
+  "item.kittymodv2.milk_bowl": "Bowl of Milk",
+  "item.kittymodv2.cat_bed": "Cat Bed",
+  "item.kittymodv2.food_bowl": "Bowl of Cat Food",
+  "item.kittymodv2.cat_bell": "Cat Bell",
+  "item.kittymodv2.catnip_leaf": "Catnip Leaf"
 }
