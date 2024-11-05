@@ -1,16 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "kittymodv2:catnip_leaf"
+        }
+    },
     "pattern": [
         "##",
         "##"
     ],
-    "key": {
-        "#": {
-            "item": "kittymodv2:item/catnip_leaf"
-        }
-    },
+
     "result": {
-        "id": "kittymodv2:item/catnip",
-        "count": 1
+        "count": 1,
+        "id": "kittymodv2:catnip"
     }
 }

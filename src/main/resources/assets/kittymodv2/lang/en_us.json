@@ -20,6 +20,7 @@
   "itemgroup.kittymodv2.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.kittymodv2.pink_garnet_blocks": "Pink Garnet Blocks",
   "itemgroup.kittymodv2.collar_items": "Collars",
+  "itemgroup.kittymodv2.cat": "Cat Items",
 
   "item.kittymodv2.yarn": "Ball of Yarn",
   "item.kittymodv2.catnip": "Catnip",
@@ -37,5 +38,8 @@
   "item.kittymodv2.cat_bed": "Cat Bed",
   "item.kittymodv2.food_bowl": "Bowl of Cat Food",
   "item.kittymodv2.cat_bell": "Cat Bell",
-  "item.kittymodv2.catnip_leaf": "Catnip Leaf"
+  "item.kittymodv2.catnip_leaf": "Catnip Leaf",
+
+  "block.kittymodv2.magic_block": "Magic Block",
+  "block.kittymodv2.yarn_block": "Yarn Block"
 }

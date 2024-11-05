@@ -1,10 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#I#",
-        " B ",
-        "#K#"
-    ],
+    "category": "misc",
     "key": {
         "#": {
             "item": "minecraft:leather"
@@ -16,11 +12,17 @@
             "item": "minecraft:black_dye"
         },
         "K": {
-            "item": "kittymodv2:item/cat_bell"
+            "item": "kittymodv2:cat_bell"
         }
     },
+    "pattern": [
+        "#I#",
+        " B ",
+        "#K#"
+    ],
+
     "result": {
-        "id": "kittymodv2:item/black_collar",
-        "count": 1
+        "count": 1,
+        "id": "kittymodv2:black_collar"
     }
 }

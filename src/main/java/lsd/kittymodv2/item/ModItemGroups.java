@@ -33,6 +33,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
     public static final ItemGroup COLLAR_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(KittyModV2.MOD_ID, "collar_items"),
@@ -50,6 +52,16 @@ public class ModItemGroups {
                         entries.add(ModItems.BLACK_COLLAR);
                         entries.add(ModItems.GREY_COLLAR);
                         entries.add(ModItems.WHITE_COLLAR);
+
+                    }).build());
+
+    public static final ItemGroup CAT_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(KittyModV2.MOD_ID, "cat"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.YARN))
+                    .displayName(Text.translatable("itemgroup.kittymodv2.cat"))
+                    .entries((displayContext, entries) -> {
+
+                        entries.add(ModBlocks.YARN_BLOCK);
 
                     }).build());
 

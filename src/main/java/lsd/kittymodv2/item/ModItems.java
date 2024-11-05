@@ -39,6 +39,7 @@ public class ModItems {
     public static final Item CAT_BELL = registerItem("cat_bell", new Item(new Item.Settings()));
     public static final Item CATNIP_LEAF = registerItem("catnip_leaf", new Item(new Item.Settings()));
 
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(KittyModV2.MOD_ID, name), item);
     }

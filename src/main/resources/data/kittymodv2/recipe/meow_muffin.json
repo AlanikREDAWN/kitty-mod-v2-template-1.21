@@ -1,10 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " # ",
-        "WEM",
-        " S "
-    ],
+    "category": "misc",
     "key": {
         "#": {
             "item": "minecraft:tropical_fish"
@@ -22,8 +18,14 @@
             "item": "minecraft:sugar"
         }
     },
+    "pattern": [
+        " # ",
+        "WEM",
+        " S "
+    ],
+
     "result": {
-        "id": "kittymodv2:meow_muffin",
-        "count": 1
+        "count": 1,
+        "id": "kittymodv2:meow_muffin"
     }
 }
