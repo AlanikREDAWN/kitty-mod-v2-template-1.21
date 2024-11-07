@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "kittymodv2:item/yarn_block"
-  }
+  "parent": "kittymodv2:block/yarn_block"
 }

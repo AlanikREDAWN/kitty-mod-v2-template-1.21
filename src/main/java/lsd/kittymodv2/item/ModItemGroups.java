@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_PINK_GARNET);
 
                         entries.add(ModItems.CHISEL);
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.STARLIGHT_ASHES);
                     }).build());
 
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -55,10 +57,10 @@ public class ModItemGroups {
 
                     }).build());
 
-    public static final ItemGroup CAT_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(KittyModV2.MOD_ID, "cat"),
+    public static final ItemGroup CAT_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(KittyModV2.MOD_ID, "cat_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.YARN))
-                    .displayName(Text.translatable("itemgroup.kittymodv2.cat"))
+                    .displayName(Text.translatable("itemgroup.kittymodv2.cat_items"))
                     .entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.YARN_BLOCK);

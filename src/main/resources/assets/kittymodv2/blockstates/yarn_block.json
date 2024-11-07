@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "kittymodv2:block/magic_block"
+      "model": "kittymodv2:block/yarn_block"
     }
   }
 }
