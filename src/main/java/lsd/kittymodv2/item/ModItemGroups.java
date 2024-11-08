@@ -64,6 +64,12 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.YARN_BLOCK);
+                        entries.add(ModItems.CAT_BELL);
+                        entries.add(ModItems.MEOW_MUFFIN);
+                        entries.add(ModItems.TREAT);
+                        entries.add(ModItems.CATNIP);
+                        entries.add(ModItems.YARN);
+                        entries.add(ModItems.CATNIP_LEAF);
 
                     }).build());
 

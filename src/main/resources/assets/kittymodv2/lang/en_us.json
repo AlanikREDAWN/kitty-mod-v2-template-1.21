@@ -44,5 +44,12 @@
   "block.kittymodv2.yarn_block": "Yarn Block",
 
   "item.kittymodv2.cauliflower": "Cauliflower",
-  "item.kittymodv2.starlight_ashes": "Starlight Ashes"
+  "item.kittymodv2.starlight_ashes": "Starlight Ashes",
+
+  "tooltip.kittymodv2.magic_block.tooltip": "This block is very, very §9COOL§r",
+
+  "tooltip.kittymodv2.chisel.shift_down": "This item chisels blocks into bricks!",
+  "tooltip.kittymodv2.chisel": "Press §eShift§r for more information!",
+
+  "tooltip.kittymodv2.cauliflower.tooltip": "This is §udelicious§r!"
 }
