@@ -37,21 +37,4 @@ public class MagicBlock extends Block {
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof ItemEntity itemEntity) {
             if (isValidItem(itemEntity.getStack())) {
-                itemEntity.setStack(new ItemStack(Items.DIAMOND, itemEntity.getStack().getCount()));
-            }
-        }
-
-        super.onSteppedOn(world, pos, state, entity);
-    }
-
-    private boolean isValidItem(ItemStack stack) {
-        return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);
-
-    }
-
-    @Override
-    public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
-        tooltip.add(Text.translatable("tooltip.kittymodv2.magic_block.tooltip"));
-        super.appendTooltip(stack, context, tooltip, options);
-    }
-}
+                itemEntity.setStack(new It
