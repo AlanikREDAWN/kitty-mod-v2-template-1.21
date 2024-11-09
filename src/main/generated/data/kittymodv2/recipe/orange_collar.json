@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "K": {
+      "item": "kittymodv2:cat_bell"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "pattern": [
+    "#I#",
+    " O ",
+    "#K#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "kittymodv2:orange_collar"
+  }
+}

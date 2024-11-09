@@ -43,7 +43,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
         itemModelGenerator.register(ModItems.TEAL_COLLAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.DANGLE_TOY, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
         itemModelGenerator.register(ModItems.RED_COLLAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.FOOD_BOWL, Models.GENERATED);
         itemModelGenerator.register(ModItems.MILK_BOWL, Models.GENERATED);
@@ -54,6 +53,5 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TREAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.STAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.YARN, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
     }
 }

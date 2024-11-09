@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cat_bell": {
+      "conditions": {
+        "items": [
+          {
+            "items": "kittymodv2:cat_bell"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kittymodv2:purple_collar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cat_bell"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kittymodv2:purple_collar"
+    ]
+  }
+}

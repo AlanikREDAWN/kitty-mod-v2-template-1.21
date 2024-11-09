@@ -84,5 +84,116 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('K', ModItems.CAT_BELL)
                 .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.YELLOW_COLLAR)
+                .pattern("#I#")
+                .pattern(" Y ")
+                .pattern("#K#")
+                .input('#', Items.LEATHER)
+                .input('I', Items.IRON_NUGGET)
+                .input('Y', Items.YELLOW_DYE)
+                .input('K', ModItems.CAT_BELL)
+                .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BLACK_COLLAR)
+                .pattern("#I#")
+                .pattern(" B ")
+                .pattern("#K#")
+                .input('#', Items.LEATHER)
+                .input('I', Items.IRON_NUGGET)
+                .input('B', Items.BLACK_DYE)
+                .input('K', ModItems.CAT_BELL)
+                .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.WHITE_COLLAR)
+                .pattern("#I#")
+                .pattern(" W ")
+                .pattern("#K#")
+                .input('#', Items.LEATHER)
+                .input('I', Items.IRON_NUGGET)
+                .input('W', Items.WHITE_DYE)
+                .input('K', ModItems.CAT_BELL)
+                .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GREEN_COLLAR)
+                .pattern("#I#")
+                .pattern(" G ")
+                .pattern("#K#")
+                .input('#', Items.LEATHER)
+                .input('I', Items.IRON_NUGGET)
+                .input('G', Items.GREEN_DYE)
+                .input('K', ModItems.CAT_BELL)
+                .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BLUE_COLLAR)
+                .pattern("#I#")
+                .pattern(" B ")
+                .pattern("#K#")
+                .input('#', Items.LEATHER)
+                .input('I', Items.IRON_NUGGET)
+                .input('B', Items.BLUE_DYE)
+                .input('K', ModItems.CAT_BELL)
+                .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GREY_COLLAR)
+                .pattern("#I#")
+                .pattern(" G ")
+                .pattern("#K#")
+                .input('#', Items.LEATHER)
+                .input('I', Items.IRON_NUGGET)
+                .input('G', Items.GRAY_DYE)
+                .input('K', ModItems.CAT_BELL)
+                .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PINK_COLLAR)
+                .pattern("#I#")
+                .pattern(" P ")
+                .pattern("#K#")
+                .input('#', Items.LEATHER)
+                .input('I', Items.IRON_NUGGET)
+                .input('P', Items.PINK_DYE)
+                .input('K', ModItems.CAT_BELL)
+                .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TEAL_COLLAR)
+                .pattern("#I#")
+                .pattern(" C ")
+                .pattern("#K#")
+                .input('#', Items.LEATHER)
+                .input('I', Items.IRON_NUGGET)
+                .input('C', Items.CYAN_DYE)
+                .input('K', ModItems.CAT_BELL)
+                .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RED_COLLAR)
+                .pattern("#I#")
+                .pattern(" R ")
+                .pattern("#K#")
+                .input('#', Items.LEATHER)
+                .input('I', Items.IRON_NUGGET)
+                .input('R', Items.RED_DYE)
+                .input('K', ModItems.CAT_BELL)
+                .criterion(hasItem(ModItems.CAT_BELL), conditionsFromItem(ModItems.CAT_BELL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAT_BELL)
+                .pattern(" # ")
+                .pattern("IBI")
+                .pattern("BIB")
+                .input('#', Items.STRING)
+                .input('I', Items.IRON_NUGGET)
+                .input('B', Items.GOLD_NUGGET)
+                .criterion(hasItem(Items.GOLD_NUGGET), conditionsFromItem(Items.GOLD_NUGGET))
+                .offerTo(exporter);
+
+        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.CATNIP, ModItems.CATNIP_LEAF);
     }
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:gold_nugget"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    " # ",
+    "IBI",
+    "BIB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "kittymodv2:cat_bell"
+  }
+}
