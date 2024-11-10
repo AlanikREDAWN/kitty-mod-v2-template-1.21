@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kittymodv2:block/pink_garnet_slab"
+    },
+    "type=double": {
+      "model": "kittymodv2:block/pink_garnet_block"
+    },
+    "type=top": {
+      "model": "kittymodv2:block/pink_garnet_slab_top"
+    }
+  }
+}

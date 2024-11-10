@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "kittymodv2:block/pink_garnet_block",
+    "side": "kittymodv2:block/pink_garnet_block",
+    "top": "kittymodv2:block/pink_garnet_block"
+  }
+}
