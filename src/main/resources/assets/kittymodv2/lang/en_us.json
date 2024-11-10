@@ -51,5 +51,18 @@
   "tooltip.kittymodv2.chisel.shift_down": "This item chisels blocks into bricks!",
   "tooltip.kittymodv2.chisel": "Press §eShift§r for more information!",
 
-  "tooltip.kittymodv2.cauliflower.tooltip": "This is §udelicious§r!"
+  "tooltip.kittymodv2.cauliflower.tooltip": "This is §udelicious§r!",
+
+  "itemgroup.kittymodv2.pink_garnet_stairs": "Pink Garnet Stairs",
+  "itemgroup.kittymodv2.pink_garnet_slab": "Pink Garnet Slab",
+
+  "itemgroup.kittymodv2.pink_garnet_button": "Pink Garnet Button",
+  "itemgroup.kittymodv2.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+
+  "itemgroup.kittymodv2.pink_garnet_fence": "Pink Garnet Fence",
+  "itemgroup.kittymodv2.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "itemgroup.kittymodv2.pink_garnet_wall": "Pink Garnet Wall",
+
+  "itemgroup.kittymodv2.pink_garnet_door": "Pink Garnet Door",
+  "itemgroup.kittymodv2.pink_garnet_trapdoor": "Pink Garnet Trapdoor"
 }

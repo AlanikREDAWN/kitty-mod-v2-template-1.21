@@ -1,8 +1,8 @@
-// 1.21	2024-11-09T15:40:43.431271	Kitty Mod V2/Recipes
+// 1.21	2024-11-10T14:01:52.2084	Kitty Mod V2/Recipes
 ce25ca2a8cfac9cdc489cec658b3d49c6ba68b67 data/kittymodv2/recipe/pink_garnet_from_smelting_pink_garnet_deepslate_ore.json
 9d1a0894c9794b0cc5d0994a5762da1996de25db data/kittymodv2/recipe/catnip.json
-8694c1f0af6af41e3dc51e337d280ab53567b9a9 data/kittymodv2/recipe/pink_garnet_from_smelting_pink_garnet_ore.json
 8602ee495775f0c91934dc90f35d1c931c5920d7 data/kittymodv2/advancement/recipes/misc/yellow_collar.json
+8694c1f0af6af41e3dc51e337d280ab53567b9a9 data/kittymodv2/recipe/pink_garnet_from_smelting_pink_garnet_ore.json
 1cab9cfa3600b83d94eeeae823dff34571c2b9eb data/kittymodv2/advancement/recipes/misc/raw_pink_garnet_from_magic_block.json
 2bba66bb5d4170b5c0c1df4e007cbc7cde80929c data/kittymodv2/recipe/black_collar.json
 3215bc2495150cf6c762b3eda5bc52ca4ae4ee2c data/kittymodv2/advancement/recipes/misc/black_collar.json

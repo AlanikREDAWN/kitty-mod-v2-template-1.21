@@ -4,8 +4,11 @@ package lsd.kittymodv2;
 import lsd.kittymodv2.block.ModBlocks;
 import lsd.kittymodv2.item.ModItemGroups;
 import lsd.kittymodv2.item.ModItems;
+import lsd.kittymodv2.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,6 +30,9 @@ public class KittyModV2 implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_GARNET_DOOR, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_GARNET_TRAPDOOR, RenderLayer.getCutout());
+		ModSounds.registerSounds();
 
 //		ItemInit.load();
 	}

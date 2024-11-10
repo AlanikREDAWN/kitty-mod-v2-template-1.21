@@ -195,5 +195,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.CATNIP, ModItems.CATNIP_LEAF);
+
+
     }
 }

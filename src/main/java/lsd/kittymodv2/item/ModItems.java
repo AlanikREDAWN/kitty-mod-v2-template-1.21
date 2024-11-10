@@ -2,15 +2,21 @@ package lsd.kittymodv2.item;
 
 import lsd.kittymodv2.KittyModV2;
 import lsd.kittymodv2.item.custom.ChiselItem;
+import lsd.kittymodv2.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.UseAction;
+import net.minecraft.world.World;
 
 import java.util.List;
 
@@ -18,7 +24,18 @@ public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
     public static final Item STAR = registerItem("star", new Item(new Item.Settings()));
-    public static final Item RED_COLLAR = registerItem("red_collar", new Item(new Item.Settings()));
+    public static final Item RED_COLLAR = registerItem("red_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
     public static final Item ORANGE_COLLAR = registerItem("orange_collar", new Item(new Item.Settings()));
     public static final Item YELLOW_COLLAR = registerItem("yellow_collar", new Item(new Item.Settings()));
     public static final Item GREEN_COLLAR = registerItem("green_collar", new Item(new Item.Settings()));
