@@ -36,16 +36,126 @@ public class ModItems {
             return ActionResult.SUCCESS;
         }
     });
-    public static final Item ORANGE_COLLAR = registerItem("orange_collar", new Item(new Item.Settings()));
-    public static final Item YELLOW_COLLAR = registerItem("yellow_collar", new Item(new Item.Settings()));
-    public static final Item GREEN_COLLAR = registerItem("green_collar", new Item(new Item.Settings()));
-    public static final Item BLUE_COLLAR = registerItem("blue_collar", new Item(new Item.Settings()));
-    public static final Item TEAL_COLLAR = registerItem("teal_collar", new Item(new Item.Settings()));
-    public static final Item PURPLE_COLLAR = registerItem("purple_collar", new Item(new Item.Settings()));
-    public static final Item PINK_COLLAR = registerItem("pink_collar", new Item(new Item.Settings()));
-    public static final Item BLACK_COLLAR = registerItem("black_collar", new Item(new Item.Settings()));
-    public static final Item GREY_COLLAR = registerItem("grey_collar", new Item(new Item.Settings()));
-    public static final Item WHITE_COLLAR = registerItem("white_collar", new Item(new Item.Settings()));
+    public static final Item ORANGE_COLLAR = registerItem("orange_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
+    public static final Item YELLOW_COLLAR = registerItem("yellow_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
+    public static final Item GREEN_COLLAR = registerItem("green_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
+    public static final Item BLUE_COLLAR = registerItem("blue_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
+    public static final Item TEAL_COLLAR = registerItem("teal_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
+    public static final Item PURPLE_COLLAR = registerItem("purple_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
+    public static final Item PINK_COLLAR = registerItem("pink_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
+    public static final Item BLACK_COLLAR = registerItem("black_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
+    public static final Item GREY_COLLAR = registerItem("grey_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
+    public static final Item WHITE_COLLAR = registerItem("white_collar", new Item(new Item.Settings()) {
+        @Override
+        public ActionResult useOnBlock(ItemUsageContext context) {
+            World world = context.getWorld();
+
+
+            if(!world.isClient()) {
+                world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
+            }
+            return ActionResult.SUCCESS;
+        }
+    });
     public static final Item YARN = registerItem("yarn", new Item(new Item.Settings()));
     public static final Item CATNIP = registerItem("catnip", new Item(new Item.Settings()));
     public static final Item DANGLE_TOY = registerItem("dangle_toy", new Item(new Item.Settings()));

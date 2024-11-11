@@ -85,6 +85,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CATNIP);
                         entries.add(ModItems.YARN);
                         entries.add(ModItems.CATNIP_LEAF);
+                        entries.add(ModBlocks.SCRATCHING_POST);
 
                     }).build());
 

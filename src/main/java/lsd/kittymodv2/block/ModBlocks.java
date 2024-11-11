@@ -74,6 +74,9 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.IRON,
                     AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
 
+    public static final Block SCRATCHING_POST = registerBlock("scratching_post",
+            new Block(AbstractBlock.Settings.create().strength(3f).requiresTool()));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(KittyModV2.MOD_ID, name), block);
