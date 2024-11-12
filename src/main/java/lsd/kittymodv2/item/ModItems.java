@@ -35,6 +35,12 @@ public class ModItems {
             }
             return ActionResult.SUCCESS;
         }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
     });
     public static final Item ORANGE_COLLAR = registerItem("orange_collar", new Item(new Item.Settings()) {
         @Override
@@ -46,6 +52,12 @@ public class ModItems {
                 world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
             }
             return ActionResult.SUCCESS;
+        }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
         }
     });
     public static final Item YELLOW_COLLAR = registerItem("yellow_collar", new Item(new Item.Settings()) {
@@ -59,6 +71,12 @@ public class ModItems {
             }
             return ActionResult.SUCCESS;
         }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
     });
     public static final Item GREEN_COLLAR = registerItem("green_collar", new Item(new Item.Settings()) {
         @Override
@@ -70,6 +88,12 @@ public class ModItems {
                 world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
             }
             return ActionResult.SUCCESS;
+        }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
         }
     });
     public static final Item BLUE_COLLAR = registerItem("blue_collar", new Item(new Item.Settings()) {
@@ -83,6 +107,12 @@ public class ModItems {
             }
             return ActionResult.SUCCESS;
         }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
     });
     public static final Item TEAL_COLLAR = registerItem("teal_collar", new Item(new Item.Settings()) {
         @Override
@@ -94,6 +124,12 @@ public class ModItems {
                 world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
             }
             return ActionResult.SUCCESS;
+        }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
         }
     });
     public static final Item PURPLE_COLLAR = registerItem("purple_collar", new Item(new Item.Settings()) {
@@ -107,6 +143,12 @@ public class ModItems {
             }
             return ActionResult.SUCCESS;
         }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
     });
     public static final Item PINK_COLLAR = registerItem("pink_collar", new Item(new Item.Settings()) {
         @Override
@@ -118,6 +160,12 @@ public class ModItems {
                 world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
             }
             return ActionResult.SUCCESS;
+        }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
         }
     });
     public static final Item BLACK_COLLAR = registerItem("black_collar", new Item(new Item.Settings()) {
@@ -131,6 +179,12 @@ public class ModItems {
             }
             return ActionResult.SUCCESS;
         }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
     });
     public static final Item GREY_COLLAR = registerItem("grey_collar", new Item(new Item.Settings()) {
         @Override
@@ -142,6 +196,12 @@ public class ModItems {
                 world.playSound(null, context.getBlockPos(), ModSounds.BELL_JINGLE, SoundCategory.BLOCKS);
             }
             return ActionResult.SUCCESS;
+        }
+
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
         }
     });
     public static final Item WHITE_COLLAR = registerItem("white_collar", new Item(new Item.Settings()) {
@@ -155,72 +215,13 @@ public class ModItems {
             }
             return ActionResult.SUCCESS;
         }
-    });
-    public static final Item YARN = registerItem("yarn", new Item(new Item.Settings()));
-    public static final Item CATNIP = registerItem("catnip", new Item(new Item.Settings()));
-    public static final Item DANGLE_TOY = registerItem("dangle_toy", new Item(new Item.Settings()));
-    public static final Item TREAT = registerItem("treat", new Item(new Item.Settings()));
-    public static final Item MEOW_MUFFIN = registerItem("meow_muffin", new Item(new Item.Settings()));
 
-    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
-
-    public static final Item LASER_POINTER = registerItem("laser_pointer", new Item(new Item.Settings()));
-    public static final Item MILK_BOWL = registerItem("milk_bowl", new Item(new Item.Settings()));
-    public static final Item CAT_BED = registerItem("cat_bed", new Item(new Item.Settings()));
-    public static final Item FOOD_BOWL = registerItem("food_bowl", new Item(new Item.Settings()));
-    public static final Item CAT_BELL = registerItem("cat_bell", new Item(new Item.Settings()));
-    public static final Item CATNIP_LEAF = registerItem("catnip_leaf", new Item(new Item.Settings()));
-
-
-    public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-            tooltip.add(Text.translatable("tooltip.kittymodv2.cauliflower.tooltip"));
+            tooltip.add(Text.translatable("tooltip.kittymodv2.collars.tooltip"));
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
-
-    public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
-
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(KittyModV2.MOD_ID, name), item);
-    }
-
-    public static void registerModItems() {
-        KittyModV2.LOGGER.info("Registering Mod Items for " + KittyModV2.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PINK_GARNET);
-            entries.add(RAW_PINK_GARNET);
-            entries.add(YARN);
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
-            entries.add(STAR);
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
-            entries.add(RED_COLLAR);
-            entries.add(ORANGE_COLLAR);
-            entries.add(YELLOW_COLLAR);
-            entries.add(GREEN_COLLAR);
-            entries.add(BLUE_COLLAR);
-            entries.add(TEAL_COLLAR);
-            entries.add(PURPLE_COLLAR);
-            entries.add(PINK_COLLAR);
-            entries.add(BLACK_COLLAR);
-            entries.add(GREY_COLLAR);
-            entries.add(WHITE_COLLAR);
-            entries.add(DANGLE_TOY);
-            entries.add(LASER_POINTER);
-            entries.add(CAT_BED);
-            entries.add(CAT_BELL);
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
-            entries.add(CATNIP);
-            entries.add(TREAT);
-            entries.add(MEOW_MUFFIN);
-            entries.add(MILK_BOWL);
-            entries.add(FOOD_BOWL);
-            entries.add(CATNIP_LEAF);
-        });
-    }
-}
+    public static final Item YARN = registerItem("yarn", new Item(new Item.Settings()) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<T
