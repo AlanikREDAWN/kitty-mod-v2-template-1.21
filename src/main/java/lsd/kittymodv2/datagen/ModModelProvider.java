@@ -24,6 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.YARN_BLOCK);
 
 
+
         pinkGarnetPool.stairs(ModBlocks.PINK_GARNET_STAIRS);
         pinkGarnetPool.slab(ModBlocks.PINK_GARNET_SLAB);
 
@@ -71,5 +72,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TREAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.STAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.YARN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CAT_FUR, Models.GENERATED);
     }
 }

@@ -87,8 +87,13 @@ public class ModItemGroups {
                         entries.add(ModItems.CATNIP_LEAF);
                         entries.add(ModBlocks.SCRATCHING_POST);
                         entries.add(ModItems.DANGLE_TOY);
+                        entries.add(ModBlocks.LITTER_BOX);
+                        entries.add(ModBlocks.CARDBOARD_BOX);
+                        entries.add(ModItems.CAT_FUR);
 
                     }).build());
 
     public static void registerItemGroups() {
-        KittyModV2.LOGGER.info("Re
+        KittyModV2.LOGGER.info("Registering Item Groups for " + KittyModV2.MOD_ID);
+    }
+}

@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -196,4 +197,64 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.CATNIP, ModItems.CATNIP_LEAF);
 
-        S
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.SCRATCHING_POST)
+                .pattern("B#B")
+                .pattern("I#I")
+                .pattern("B#B")
+                .input('#', Items.OAK_PLANKS)
+                .input('I', Items.STRING)
+                .input('B', Items.STICK)
+                .criterion(hasItem(Items.OAK_PLANKS), conditionsFromItem(Items.OAK_PLANKS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.LITTER_BOX)
+                .pattern("WWW")
+                .pattern("WSW")
+                .pattern("WWW")
+                .input('W', Items.OAK_PLANKS)
+                .input('S', Items.SAND)
+                .criterion(hasItem(Items.SAND), conditionsFromItem(Items.SAND))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CARDBOARD_BOX)
+                .pattern("PPP")
+                .pattern("WSW")
+                .pattern("WSW")
+                .input('P', Items.PAPER)
+                .input('W', Items.OAK_WOOD)
+                .input('S', Items.STRING)
+                .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
+                .offerTo(exporter);
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TREAT)
+                .pattern("   ")
+                .pattern("#WS")
+                .pattern("   ")
+                .input('#', Items.TROPICAL_FISH)
+                .input('W', Items.WHEAT)
+                .input('S', Items.SUGAR)
+                .criterion(hasItem(Items.TROPICAL_FISH), conditionsFromItem(Items.TROPICAL_FISH))
+                .offerTo(exporter);
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DANGLE_TOY)
+                .pattern("  S")
+                .pattern(" S#")
+                .pattern("S F")
+                .input('#', Items.STRING)
+                .input('F', Items.FEATHER)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.FEATHER), conditionsFromItem(Items.FEATHER))
+                .offerTo(exporter);
+
+//        offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModItems.YARN, Items.STRING);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.YARN, RecipeCategory.MISC, ModBlocks.YARN_BLOCK);
+
+
+
+
+
+    }
+}

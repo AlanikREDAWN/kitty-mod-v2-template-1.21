@@ -45,6 +45,7 @@
 
   "item.kittymodv2.cauliflower": "Cauliflower",
   "item.kittymodv2.starlight_ashes": "Starlight Ashes",
+  "item.kittymodv2.cat_fur": "Cat Fur",
 
   "tooltip.kittymodv2.magic_block.tooltip": "This block is very, very §9COOL§r",
 
@@ -67,5 +68,24 @@
   "itemgroup.kittymodv2.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
 
   "block.kittymodv2.scratching_post": "Scratching Post",
+  "block.kittymodv2.litter_box": "Litter Box",
+  "block.kittymodv2.cardboard_box": "Cardboard Box",
 
-  "
+  "tooltip.kittymodv2.collars.tooltip": "Put me on a cat!",
+
+  "tooltip.kittymodv2.scratching_post.tooltip": "Cats like to scratch me!",
+  "tooltip.kittymodv2.meow_muffin.tooltip": "Eat me!!",
+  "tooltip.kittymodv2.treat.tooltip": "Feed me to your kitty!",
+
+  "tooltip.kittymodv2.dangle_toy.tooltip": "Cats love to play with me!",
+  "tooltip.kittymodv2.catnip.tooltip": "Feed me to your kitty!",
+
+  "tooltip.kittymodv2.catnip_leaf.tooltip": "Turn me into catnip!",
+
+  "tooltip.kittymodv2.cat_bell.tooltip": "Turn me into a collar!",
+
+  "tooltip.kittymodv2.yarn_block.tooltip": "MORE YARN!!!",
+  "tooltip.kittymodv2.litter_box.tooltip": "Cats like to do their business here",
+  "tooltip.kittymodv2.cardboard_box.tooltip": "Cats like to hide in my depths",
+  "tooltip.kittymodv2.cat_fur.tooltip": "I fell off a kitty"
+}
