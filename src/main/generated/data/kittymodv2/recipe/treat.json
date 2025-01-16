@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:tropical_fish"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "   ",
+    "#WS",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "kittymodv2:treat"
+  }
+}

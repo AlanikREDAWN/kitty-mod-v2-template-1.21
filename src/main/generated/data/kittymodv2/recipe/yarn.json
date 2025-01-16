@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kittymodv2:yarn_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "kittymodv2:yarn"
+  }
+}
