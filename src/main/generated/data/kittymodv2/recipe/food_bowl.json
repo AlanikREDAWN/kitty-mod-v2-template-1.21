@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:red_terracotta"
+    },
+    "T": {
+      "item": "kittymodv2:treat"
+    }
+  },
+  "pattern": [
+    "   ",
+    "RTR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "kittymodv2:food_bowl"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "R": {
+      "item": "minecraft:red_terracotta"
+    }
+  },
+  "pattern": [
+    "   ",
+    "RMR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "kittymodv2:milk_bowl"
+  }
+}
