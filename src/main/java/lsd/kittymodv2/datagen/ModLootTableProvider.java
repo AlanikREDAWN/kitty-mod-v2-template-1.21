@@ -49,6 +49,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.YARN_BLOCK);
         addDrop(ModBlocks.LITTER_BOX);
+        addDrop(ModBlocks.CARDBOARD_BOX);
+        addDrop(ModBlocks.CAT_BED);
+        addDrop(ModBlocks.FOOD_BOWL);
+        addDrop(ModBlocks.MILK_BOWL);
+        addDrop(ModBlocks.CATNIP_PLANT, drops(ModItems.CATNIP));
+        addPottedPlantDrops(ModBlocks.CATNIP_PLANT_POT);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

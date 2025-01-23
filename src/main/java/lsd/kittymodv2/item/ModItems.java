@@ -261,9 +261,9 @@ public class ModItems {
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
     public static final Item LASER_POINTER = registerItem("laser_pointer", new Item(new Item.Settings()));
-    public static final Item MILK_BOWL = registerItem("milk_bowl", new Item(new Item.Settings()));
-    public static final Item CAT_BED = registerItem("cat_bed", new Item(new Item.Settings()));
-    public static final Item FOOD_BOWL = registerItem("food_bowl", new Item(new Item.Settings()));
+//    public static final Item MILK_BOWL = registerItem("milk_bowl", new Item(new Item.Settings()));
+//    public static final Item CAT_BED = registerItem("cat_bed", new Item(new Item.Settings()));
+//    public static final Item FOOD_BOWL = registerItem("food_bowl.json", new Item(new Item.Settings()));
     public static final Item CAT_BELL = registerItem("cat_bell", new Item(new Item.Settings()) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -298,6 +298,14 @@ public class ModItems {
         }
     });
 
+    public static final Item FUR_BRUSH = registerItem("fur_brush", new Item(new Item.Settings()) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.kittymodv2.fur_brush.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(KittyModV2.MOD_ID, name), item);
     }
@@ -327,15 +335,15 @@ public class ModItems {
             entries.add(WHITE_COLLAR);
             entries.add(DANGLE_TOY);
             entries.add(LASER_POINTER);
-            entries.add(CAT_BED);
+//            entries.add(CAT_BED);
             entries.add(CAT_BELL);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(CATNIP);
             entries.add(TREAT);
             entries.add(MEOW_MUFFIN);
-            entries.add(MILK_BOWL);
-            entries.add(FOOD_BOWL);
+//            entries.add(MILK_BOWL);
+//            entries.add(FOOD_BOWL);
             entries.add(CATNIP_LEAF);
         });
     }

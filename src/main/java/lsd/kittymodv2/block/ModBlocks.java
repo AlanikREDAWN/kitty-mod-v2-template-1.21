@@ -3,7 +3,11 @@ package lsd.kittymodv2.block;
 import lsd.kittymodv2.KittyModV2;
 import lsd.kittymodv2.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -104,13 +108,57 @@ public class ModBlocks {
             });
 
     public static final Block CARDBOARD_BOX = registerBlock("cardboard_box",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()) {
+            new Block(AbstractBlock.Settings.create().strength(2f).noCollision()) {
                 @Override
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
                     tooltip.add(Text.translatable("tooltip.kittymodv2.cardboard_box.tooltip"));
                     super.appendTooltip(stack, context, tooltip, type);
                 }
             });
+
+    public static final Block CAT_BED = registerBlock("cat_bed",
+            new Block(AbstractBlock.Settings.create().strength(2f).noCollision()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.kittymodv2.cat_bed.tooltip"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+
+    public static final Block MILK_BOWL = registerBlock("milk_bowl",
+            new Block(AbstractBlock.Settings.create().strength(2f).noCollision()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.kittymodv2.milk_bowl.tooltip"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+
+    public static final Block CATNIP_PLANT = registerBlock("catnip_plant", new FlowerBlock(
+            StatusEffects.LEVITATION, 4f, AbstractBlock.Settings.create()
+            .mapColor(MapColor.DARK_GREEN)
+            .noCollision()
+//            .nonOpaque()
+//            .ticksRandomly()
+            .breakInstantly()
+            .sounds(BlockSoundGroup.GRASS)
+            .offset(AbstractBlock.OffsetType.XZ)
+            .pistonBehavior(PistonBehavior.DESTROY)
+    ));
+
+    public static final Block CATNIP_PLANT_POT = registerBlock("catnip_plant_pot",
+            Blocks.createFlowerPotBlock(CATNIP_PLANT));
+
+    public static final Block FOOD_BOWL = registerBlock("food_bowl",
+            new Block(AbstractBlock.Settings.create().strength(2f).noCollision()) {
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.kittymodv2.food_bowl.tooltip"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

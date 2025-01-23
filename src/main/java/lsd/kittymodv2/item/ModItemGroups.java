@@ -90,6 +90,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LITTER_BOX);
                         entries.add(ModBlocks.CARDBOARD_BOX);
                         entries.add(ModItems.CAT_FUR);
+                        entries.add(ModItems.FUR_BRUSH);
+                        entries.add(ModBlocks.CAT_BED);
+                        entries.add(ModBlocks.FOOD_BOWL);
+                        entries.add(ModBlocks.MILK_BOWL);
+                        entries.add(ModBlocks.CATNIP_PLANT);
+//                        entries.add(ModBlocks.CATNIP_PLANT_POT);
 
                     }).build());
 

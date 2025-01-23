@@ -1,3 +1,6 @@
 {
-  "parent": "kittymodv2:block/scratching_post"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kittymodv2:item/scratching_post"
+  }
 }

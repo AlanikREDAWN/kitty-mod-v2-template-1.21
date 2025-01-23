@@ -32,6 +32,8 @@ public class KittyModV2 implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModSounds.registerSounds();
+//		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CATNIP_PLANT, RenderLayer.getCutout());
+//		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CATNIP_PLANT_POT, RenderLayer.getCutout());
 
 //		ItemInit.load();
 	}

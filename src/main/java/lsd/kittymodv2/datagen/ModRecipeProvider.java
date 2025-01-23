@@ -226,6 +226,41 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FUR_BRUSH)
+                .pattern("  W")
+                .pattern(" S ")
+                .pattern("S  ")
+                .input('W', Items.WHITE_WOOL)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CAT_BED)
+                .pattern("   ")
+                .pattern("W W")
+                .pattern("WWW")
+                .input('W', Items.RED_WOOL)
+                .criterion(hasItem(Items.RED_WOOL), conditionsFromItem(Items.RED_WOOL))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.FOOD_BOWL)
+                .pattern("   ")
+                .pattern("RTR")
+                .pattern("RRR")
+                .input('R', Items.RED_TERRACOTTA)
+                .input('T', ModItems.TREAT)
+                .criterion(hasItem(ModItems.TREAT), conditionsFromItem(ModItems.TREAT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MILK_BOWL)
+                .pattern("   ")
+                .pattern("RMR")
+                .pattern("RRR")
+                .input('R', Items.RED_TERRACOTTA)
+                .input('M', Items.MILK_BUCKET)
+                .criterion(hasItem(Items.MILK_BUCKET), conditionsFromItem(Items.MILK_BUCKET))
+                .offerTo(exporter);
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TREAT)
                 .pattern("   ")

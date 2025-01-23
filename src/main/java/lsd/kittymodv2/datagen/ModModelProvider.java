@@ -37,6 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_GARNET_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_GARNET_TRAPDOOR);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CATNIP_PLANT, ModBlocks.CATNIP_PLANT_POT, BlockStateModelGenerator.TintType.NOT_TINTED);
 
 
 
@@ -63,15 +64,16 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TEAL_COLLAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.DANGLE_TOY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RED_COLLAR, Models.GENERATED);
-        itemModelGenerator.register(ModItems.FOOD_BOWL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MILK_BOWL, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.FOOD_BOWL, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.MILK_BOWL, Models.GENERATED);
         itemModelGenerator.register(ModItems.CAT_BELL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CAT_BED, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.CAT_BED, Models.GENERATED);
         itemModelGenerator.register(ModItems.CATNIP, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.TREAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.STAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.YARN, Models.GENERATED);
         itemModelGenerator.register(ModItems.CAT_FUR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FUR_BRUSH, Models.GENERATED);
     }
 }

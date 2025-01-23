@@ -35,8 +35,6 @@
 
   "item.kittymodv2.laser_pointer": "Laser Pointer",
   "item.kittymodv2.milk_bowl": "Bowl of Milk",
-  "item.kittymodv2.cat_bed": "Cat Bed",
-  "item.kittymodv2.food_bowl": "Bowl of Cat Food",
   "item.kittymodv2.cat_bell": "Cat Bell",
   "item.kittymodv2.catnip_leaf": "Catnip Leaf",
 
@@ -46,6 +44,7 @@
   "item.kittymodv2.cauliflower": "Cauliflower",
   "item.kittymodv2.starlight_ashes": "Starlight Ashes",
   "item.kittymodv2.cat_fur": "Cat Fur",
+  "item.kittymodv2.fur_brush": "Fur Brush",
 
   "tooltip.kittymodv2.magic_block.tooltip": "This block is very, very §9COOL§r",
 
@@ -70,6 +69,9 @@
   "block.kittymodv2.scratching_post": "Scratching Post",
   "block.kittymodv2.litter_box": "Litter Box",
   "block.kittymodv2.cardboard_box": "Cardboard Box",
+  "block.kittymodv2.cat_bed": "Cat Bed",
+  "block.kittymodv2.food_bowl": "Bowl of Cat Food",
+  "block.kittymodv2.milk_bowl": "Bowl of Milk",
 
   "tooltip.kittymodv2.collars.tooltip": "Put me on a cat!",
 
@@ -87,5 +89,9 @@
   "tooltip.kittymodv2.yarn_block.tooltip": "MORE YARN!!!",
   "tooltip.kittymodv2.litter_box.tooltip": "Cats like to do their business here",
   "tooltip.kittymodv2.cardboard_box.tooltip": "Cats like to hide in my depths",
-  "tooltip.kittymodv2.cat_fur.tooltip": "I fell off a kitty"
+  "tooltip.kittymodv2.cat_fur.tooltip": "I fell off a kitty",
+  "tooltip.kittymodv2.fur_brush.tooltip": "Brush a cat with me!",
+  "tooltip.kittymodv2.cat_bed.tooltip": "Cats like to sleep here",
+  "tooltip.kittymodv2.food_bowl.tooltip": "Kitty Num Nums",
+  "tooltip.kittymodv2.milk_bowl.tooltip": "Kitties like to lick me up"
 }
