@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kittymodv2:yarn_block"
+          "name": "kittymodv2:yarn"
         }
       ],
       "rolls": 1.0

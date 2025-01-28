@@ -1,4 +1,4 @@
-// 1.21	2025-01-23T13:56:00.642998	Kitty Mod V2/Block Loot Tables
+// 1.21	2025-01-28T16:30:14.914563	Kitty Mod V2/Block Loot Tables
 29656bf17efcdd845ffd9911ffee1578bb9e0966 data/kittymodv2/loot_table/blocks/food_bowl.json
 75146c759750f79d2c095da8af86790325166798 data/kittymodv2/loot_table/blocks/scratching_post.json
 e24931e6ff7b388521c546614015c8d4cb00901c data/kittymodv2/loot_table/blocks/pink_garnet_fence.json
@@ -15,10 +15,10 @@ dbbad0c3fc189770e571fc07a4c71a6dcffcd253 data/kittymodv2/loot_table/blocks/milk_
 3ac1d1c9b7055ddaf1a370231ec8392e44c57c1d data/kittymodv2/loot_table/blocks/pink_garnet_door.json
 1389036ad6686ffafff309397a7fb8f1471c205a data/kittymodv2/loot_table/blocks/raw_pink_garnet_block.json
 4f063b68ccce0694d70ed0662b960af80818a932 data/kittymodv2/loot_table/blocks/pink_garnet_pressure_plate.json
-bea3f91025ada6f1052e2d5b362e7d4ae518126d data/kittymodv2/loot_table/blocks/cardboard_box.json
 b32ad96fed7d5abfc8aa9c105d15476363e7ee57 data/kittymodv2/loot_table/blocks/pink_garnet_slab.json
+bea3f91025ada6f1052e2d5b362e7d4ae518126d data/kittymodv2/loot_table/blocks/cardboard_box.json
 cb5653c1792c74c1905805ee8c246ab09ab039a6 data/kittymodv2/loot_table/blocks/litter_box.json
 0792d4b4b7ef1756036a8b87d01d4d16e0cacb6b data/kittymodv2/loot_table/blocks/cat_bed.json
 b2f8ec4a6f47f9d842dc2c188e3b6323e5916240 data/kittymodv2/loot_table/blocks/pink_garnet_wall.json
-c940100aef38c4b9ed01475b04ef0a2508be8821 data/kittymodv2/loot_table/blocks/yarn_block.json
+09841132cde8798536569696e7d0b3c6edf2cba4 data/kittymodv2/loot_table/blocks/yarn_block.json
 10eaefa7645faff3fd2c1da494df0ad411d2822d data/kittymodv2/loot_table/blocks/pink_garnet_button.json

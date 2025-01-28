@@ -1,4 +1,4 @@
-// 1.21	2025-01-23T13:56:00.644374	Kitty Mod V2/Model Definitions
+// 1.21	2025-01-28T16:30:14.918555	Kitty Mod V2/Model Definitions
 b84a4317174a5c5e2c26c0d093c8e8c309b5a112 assets/kittymodv2/models/block/pink_garnet_trapdoor_bottom.json
 ee0a3ac282454078abc252a468d1ec33093cd128 assets/kittymodv2/models/block/pink_garnet_door_bottom_left_open.json
 c0cfe93b465730d7e99a008ade1cee30689eba11 assets/kittymodv2/models/item/catnip.json
@@ -85,8 +85,8 @@ c59704059f288bfe17c06caa1ffb96803563ca6e assets/kittymodv2/blockstates/pink_garn
 702bf3a362fb9d818d017d00baff078458efa438 assets/kittymodv2/models/item/pink_garnet_pressure_plate.json
 ff4098bf1977cc5708eb4860dd22ef89525673b3 assets/kittymodv2/models/item/raw_pink_garnet_block.json
 7f83c9129e7626ce2d2d9166e7f1c057929a691f assets/kittymodv2/models/item/pink_garnet_block.json
-f4ac4881afd59ea4251a2594cfabe519f0105ffa assets/kittymodv2/blockstates/pink_garnet_button.json
 299858d3f3a7ec5b529a6d3cfd32fec951c87f54 assets/kittymodv2/blockstates/pink_garnet_wall.json
+f4ac4881afd59ea4251a2594cfabe519f0105ffa assets/kittymodv2/blockstates/pink_garnet_button.json
 cda39552fad27c7462fed1376bf3bcd8c04c903c assets/kittymodv2/models/item/star.json
 99b08bb190b6443f11d2d5dcb012486147b3ba48 assets/kittymodv2/models/block/pink_garnet_door_top_left_open.json
 5c22d971b3c1a5a41f2e2488e139c7a62fe4f362 assets/kittymodv2/models/item/white_collar.json

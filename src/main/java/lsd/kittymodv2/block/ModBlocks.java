@@ -44,8 +44,7 @@ public class ModBlocks {
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     public static final Block YARN_BLOCK = registerBlock("yarn_block",
-            new Block(AbstractBlock.Settings.create().strength(1f)
-                    .requiresTool()) {
+            new Block(AbstractBlock.Settings.create().strength(1f)) {
                 @Override
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
                     tooltip.add(Text.translatable("tooltip.kittymodv2.yarn_block.tooltip"));
