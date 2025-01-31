@@ -2,6 +2,8 @@
 
 This project is an Minecraft mod that adds all the essentials for your little kitty friend!
 
+From High Seas? If you don't want to download the mod (though it's highly recommended), you can watch the demo video here: https://cloud-ohkduff70-hack-club-bot.vercel.app/0screen_20recording_202025-01-29_20at_2012.mp4
+
 ## Items and blocks Added: 
 - Catnip plant (when broken, a catnip leaf is dropped)
 - Catnip plant pot (catnip plant but in a flower pot)
