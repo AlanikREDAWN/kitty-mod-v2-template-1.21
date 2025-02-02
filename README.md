@@ -25,3 +25,5 @@ From High Seas? If you don't want to download the mod (though it's highly recomm
 - Food bowl (food to eat)
 - Milk bowl (milk to drink)
 - Scratching post (sharpen those claws!)
+
+![Screenshot 2025-01-29 at 8 21 01 AM](https://github.com/user-attachments/assets/a50b6f05-d1e8-4157-94be-c68b5c4c9082)
